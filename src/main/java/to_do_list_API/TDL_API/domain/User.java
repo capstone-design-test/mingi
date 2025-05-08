@@ -9,7 +9,7 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name= "user")
+@Table(name= "user1")
 public class User {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int pid;
